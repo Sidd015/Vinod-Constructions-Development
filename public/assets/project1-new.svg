@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87ceeb" />
+      <stop offset="100%" stop-color="#e0f6ff" />
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8b8a8" />
+      <stop offset="100%" stop-color="#a89878" />
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1600" height="900" fill="url(#sky)" />
+  <!-- Sun -->
+  <circle cx="1400" cy="120" r="60" fill="#ffd700" opacity="0.8" />
+  <!-- Building blocks -->
+  <rect x="150" y="350" width="280" height="550" fill="url(#building)" />
+  <rect x="500" y="250" width="350" height="650" fill="#b8a898" />
+  <rect x="1050" y="320" width="320" height="580" fill="#c8b8a8" />
+  <!-- Windows -->
+  <g fill="#87ceeb" opacity="0.7">
+    <rect x="170" y="380" width="35" height="35" />
+    <rect x="235" y="380" width="35" height="35" />
+    <rect x="170" y="450" width="35" height="35" />
+    <rect x="235" y="450" width="35" height="35" />
+    <rect x="170" y="520" width="35" height="35" />
+    <rect x="235" y="520" width="35" height="35" />
+    <rect x="170" y="590" width="35" height="35" />
+    <rect x="235" y="590" width="35" height="35" />
+  </g>
+  <!-- Ground -->
+  <rect x="0" y="900" width="1600" height="0" fill="#90ee90" />
+  <text x="100" y="60" fill="#0f4c81" font-size="40" font-family="Merriweather, serif" font-weight="bold">Residential Complex - Phase I</text>
+  <text x="100" y="120" fill="#666" font-size="18" font-family="Inter, sans-serif">Modern multi-story residential development with premium amenities</text>
+</svg>
