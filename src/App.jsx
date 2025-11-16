@@ -8,12 +8,14 @@ import Testimonials from './components/Testimonials'
 import FAQ from './components/FAQ'
 import Home from './pages/Home'
 import About from './pages/About'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App(){
   const [quoteOpen, setQuoteOpen] = useState(false)
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar onQuote={()=>setQuoteOpen(true)} />
+      <ScrollToTop />
       <div className="flex-grow">
         <Routes>
           <Route path="/" element={<Home onQuote={()=>setQuoteOpen(true)} />} />
