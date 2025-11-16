@@ -1,15 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function Navbar({onQuote}){
+  const navigate = useNavigate()
+
   const scrollToId = (id) => {
     // First, try to scroll on current page
     const el = document.getElementById(id)
     if(el){
       el.scrollIntoView({ behavior: 'smooth', block: 'start' })
     } else {
-      // If element not found (on different route), navigate to home with section parameter
-      window.location.href = `/?section=${id}`
+      // If element not found (on different route), navigate to home with section parameter (HashRouter will produce #/?section=...)
+      navigate(`/?section=${id}`)
     }
   }
 
