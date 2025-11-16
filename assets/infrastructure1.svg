@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="warm-wall-gradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5f0eb" />
+      <stop offset="100%" stop-color="#ede7e0" />
+    </linearGradient>
+    <linearGradient id="wood-texture" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a574" />
+      <stop offset="50%" stop-color="#e0b88c" />
+      <stop offset="100%" stop-color="#c9945f" />
+    </linearGradient>
+  </defs>
+  <!-- Main background - warm neutral -->
+  <rect width="1600" height="900" fill="url(#warm-wall-gradient)" />
+  
+  <!-- Accent wall panel -->
+  <rect x="0" y="0" width="450" height="750" fill="#d9cfc5" />
+  <rect x="420" y="120" width="30" height="600" fill="#c5b5ab" opacity="0.5" />
+  
+  <!-- Premium wooden floor -->
+  <rect x="0" y="750" width="1600" height="150" fill="url(#wood-texture)" />
+  <line x1="0" y1="810" x2="1600" y2="810" stroke="#b8955f" stroke-width="1" opacity="0.3" />
+  <line x1="0" y1="860" x2="1600" y2="860" stroke="#b8955f" stroke-width="1" opacity="0.3" />
+  
+  <!-- Modern Sectional Sofa L-shaped -->
+  <g id="sofa">
+    <rect x="500" y="520" width="320" height="160" rx="12" fill="#2d2d2d" />
+    <rect x="500" y="500" width="320" height="25" fill="#3a3a3a" rx="12" />
+    <rect x="820" y="520" width="140" height="160" rx="12" fill="#2d2d2d" />
+    <!-- Cushion highlight -->
+    <rect x="515" y="535" width="90" height="130" fill="#3a3a3a" opacity="0.4" />
+    <rect x="635" y="535" width="90" height="130" fill="#3a3a3a" opacity="0.4" />
+  </g>
+  
+  <!-- Wooden coffee table -->
+  <rect x="540" y="700" width="200" height="40" fill="#c9945f" rx="6" />
+  <rect x="550" y="710" width="35" height="80" fill="#b8835f" />
+  <rect x="705" y="710" width="35" height="80" fill="#b8835f" />
+  
+  <!-- Indoor plant - modern pot -->
+  <circle cx="1050" cy="650" r="40" fill="#2d2d2d" />
+  <ellipse cx="1050" cy="600" rx="55" ry="75" fill="#5a8c69" />
+  <ellipse cx="1025" cy="580" rx="28" ry="50" fill="#6a9c79" />
+  <ellipse cx="1075" cy="580" rx="28" ry="50" fill="#6a9c79" />
+  
+  <!-- Modern wall art - geometric -->
+  <rect x="1200" y="250" width="320" height="280" fill="#f8f6f3" stroke="#c9a74a" stroke-width="10" rx="4" />
+  <circle cx="1280" cy="320" r="50" fill="#d4af37" opacity="0.85" />
+  <rect x="1310" y="380" width="140" height="110" fill="#2d2d2d" opacity="0.3" />
+  
+  <!-- Window with natural light -->
+  <rect x="1500" y="200" width="80" height="350" fill="#e8f4ff" stroke="#8ab3d4" stroke-width="4" />
+  <line x1="1540" y1="200" x2="1540" y2="550" stroke="#8ab3d4" stroke-width="2" />
+  <line x1="1500" y1="375" x2="1580" y2="375" stroke="#8ab3d4" stroke-width="2" />
+  <!-- Light glow on floor -->
+  <ellipse cx="1530" cy="780" rx="140" ry="45" fill="#fffaed" opacity="0.6" />
+  
+  <!-- Title overlay -->
+  <rect x="50" y="50" width="550" height="120" fill="rgba(45, 45, 45, 0.82)" rx="8" />
+  <text x="75" y="100" fill="#d4af37" font-size="42" font-family="Merriweather, serif" font-weight="bold">Modern Living Spaces</text>
+  <text x="75" y="150" fill="#f0ede8" font-size="18" font-family="Inter, sans-serif">Contemporary design with premium finishes</text>
+</svg>

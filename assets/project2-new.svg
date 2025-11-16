@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87ceeb" />
+      <stop offset="100%" stop-color="#e0f6ff" />
+    </linearGradient>
+    <linearGradient id="office" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4d0cc" />
+      <stop offset="100%" stop-color="#9c9490" />
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1600" height="900" fill="url(#sky2)" />
+  <!-- Clouds -->
+  <circle cx="300" cy="150" r="80" fill="#ffffff" opacity="0.6" />
+  <circle cx="400" cy="120" r="100" fill="#ffffff" opacity="0.5" />
+  <!-- Office building -->
+  <rect x="200" y="300" width="1200" height="600" fill="url(#office)" />
+  <!-- Glass panels -->
+  <g fill="#87ceeb" opacity="0.6">
+    <rect x="240" y="340" width="80" height="100" />
+    <rect x="370" y="340" width="80" height="100" />
+    <rect x="500" y="340" width="80" height="100" />
+    <rect x="630" y="340" width="80" height="100" />
+    <rect x="760" y="340" width="80" height="100" />
+    <rect x="890" y="340" width="80" height="100" />
+    <rect x="1020" y="340" width="80" height="100" />
+    <rect x="1150" y="340" width="80" height="100" />
+    <rect x="240" y="490" width="80" height="100" />
+    <rect x="370" y="490" width="80" height="100" />
+    <rect x="500" y="490" width="80" height="100" />
+    <rect x="630" y="490" width="80" height="100" />
+    <rect x="760" y="490" width="80" height="100" />
+    <rect x="890" y="490" width="80" height="100" />
+    <rect x="1020" y="490" width="80" height="100" />
+    <rect x="1150" y="490" width="80" height="100" />
+  </g>
+  <!-- Entrance -->
+  <rect x="700" y="750" width="200" height="150" fill="#654321" />
+  <text x="100" y="60" fill="#0f4c81" font-size="40" font-family="Merriweather, serif" font-weight="bold">Office Block Renovation</text>
+  <text x="100" y="120" fill="#666" font-size="18" font-family="Inter, sans-serif">Professional commercial space with modern infrastructure</text>
+</svg>

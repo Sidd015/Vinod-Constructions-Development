@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87ceeb" />
+      <stop offset="100%" stop-color="#e0f6ff" />
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#90ee90" />
+      <stop offset="100%" stop-color="#7cb342" />
+    </linearGradient>
+  </defs>
+  <!-- Sky -->
+  <rect width="1600" height="900" fill="url(#sky3)" />
+  <!-- Trees -->
+  <circle cx="200" cy="500" r="60" fill="#228b22" />
+  <rect x="185" y="560" width="30" height="80" fill="#8b4513" />
+  <circle cx="1400" cy="480" r="70" fill="#228b22" />
+  <rect x="1380" y="550" width="40" height="100" fill="#8b4513" />
+  <!-- Layout plots -->
+  <rect x="250" y="400" width="150" height="180" fill="#e8d4a2" stroke="#333" stroke-width="2" />
+  <rect x="450" y="380" width="160" height="200" fill="#e8d4a2" stroke="#333" stroke-width="2" />
+  <rect x="650" y="400" width="155" height="180" fill="#e8d4a2" stroke="#333" stroke-width="2" />
+  <rect x="850" y="380" width="165" height="200" fill="#e8d4a2" stroke="#333" stroke-width="2" />
+  <rect x="1050" y="400" width="150" height="180" fill="#e8d4a2" stroke="#333" stroke-width="2" />
+  <!-- Plot numbers -->
+  <text x="300" y="490" fill="#333" font-size="24" font-weight="bold">Plot 1</text>
+  <text x="510" y="480" fill="#333" font-size="24" font-weight="bold">Plot 2</text>
+  <text x="710" y="490" fill="#333" font-size="24" font-weight="bold">Plot 3</text>
+  <text x="910" y="480" fill="#333" font-size="24" font-weight="bold">Plot 4</text>
+  <text x="1100" y="490" fill="#333" font-size="24" font-weight="bold">Plot 5</text>
+  <!-- Road -->
+  <rect x="0" y="620" width="1600" height="80" fill="#666" opacity="0.7" />
+  <!-- Lawn -->
+  <rect x="0" y="700" width="1600" height="200" fill="url(#lawn)" />
+  <text x="100" y="60" fill="#0f4c81" font-size="40" font-family="Merriweather, serif" font-weight="bold">Layout Development - Green Meadows</text>
+  <text x="100" y="120" fill="#666" font-size="18" font-family="Inter, sans-serif">Premium residential layout with open spaces and green areas</text>
+</svg>
